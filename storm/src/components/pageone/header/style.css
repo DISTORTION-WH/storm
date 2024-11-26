@@ -1,0 +1,28 @@
+.logo 
+{
+    width: 100px;
+}
+.tcol, h3, .virtualisations {
+        color: aliceblue;
+       
+}
+.virtualisations {
+font-size: 35px;
+text-align: center;
+
+color:orange;
+}
+a {
+    text-decoration: none;
+
+}
+
+.imgg{
+    width: 500px;
+    height: auto;
+}
+
+.sl{
+
+    display: block;
+}

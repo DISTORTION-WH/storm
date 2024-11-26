@@ -1,0 +1,80 @@
+.all{
+    position: relative;
+    text-align: center;
+}
+.collage{
+    width: 100%;
+}
+
+
+
+.tbut{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.t{
+   
+
+    color:orange;
+    font-size: 30px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px;
+ 
+}
+
+
+.links{
+    margin-top: 40%;
+    display: flex;
+}
+
+
+
+
+
+
+.more {
+
+    border: 2px solid orange;
+    padding: 10px 20px;
+ border-radius: 0%;
+    color: rgb(158, 158, 158);
+    z-index: 1;
+    background: black;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+
+    transition: all 250ms;
+    overflow: hidden;
+    display: flex ;
+   margin-left: 5px;
+   margin-right: 5px;
+   margin-bottom: 2%;
+   }
+   
+   .more::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 0px;
+    background-color: orange;
+    z-index: -1;
+  
+    transition: all 250ms
+   }
+   
+   .more:hover {
+    color: #e8e8e8;
+   }
+   
+   .more:hover::before {
+    width: 100%;
+   }

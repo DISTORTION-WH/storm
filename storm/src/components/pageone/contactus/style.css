@@ -1,0 +1,21 @@
+.con {
+    color:orange;
+    font-size: 30px;
+    text-align: center;
+    margin: 1% 0;
+}
+.phone{
+    color:orange;
+    font-size: 30px;
+    text-align: center;
+    margin: 1% 0; 
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+.cont{
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    margin-left:10%;
+    margin-right:10%;
+}

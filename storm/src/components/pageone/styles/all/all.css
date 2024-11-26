@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+}
+.main {
+width: 1080px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 30px;
+border: solid;
+border-color: aliceblue;
+box-shadow: 40px white;
+
+}
+
+
+@font-face {
+    font-family: "RalewayMedium"; 
+    src: url("../../../../data/Raleway-Medium.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+  } 
+
+*{
+    font-family: "RalewayMedium";
+  }
+
+
+
+  html {
+    scroll-behavior: smooth;
+  }

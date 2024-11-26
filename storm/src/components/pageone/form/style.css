@@ -1,0 +1,60 @@
+.form{
+display: block;
+
+}
+.form-heading{
+text-align: center;
+}
+
+.mal{
+  display: block;
+margin: 3% auto;
+}
+.wrm{
+  display: block;
+margin: 0 auto;
+
+
+border: none;
+border-bottom: 3px solid white;
+color: white;
+width: 40%;
+height: 150px;
+text-decoration: none;
+background-color:black ;
+font-size: large;
+}
+.btn{
+  display: block;
+margin: 5% auto; 
+
+
+color: white;
+border: 3px solid white;
+width: 40%;
+height: 50px;
+text-decoration: none;
+background-color:black ;
+font-size: medium;
+transition: 0.2s linear;
+}
+
+.btn:hover{
+  background-color: white;
+  color:black;
+  box-shadow: white;
+  border: 3px solid orange;
+}
+
+
+input[type=email] {
+  color: white;
+border: none;
+border-bottom: 3px solid white;
+width: 40%;
+height: 50px;
+text-decoration: none;
+background-color:black ;
+font-size: medium;
+margin-bottom: 5%;
+}
